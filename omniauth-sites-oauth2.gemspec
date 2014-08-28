@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "omniauth-weibo-oauth2"
   gem.require_paths = ["lib"]
-  gem.version       = OmniAuth::WeiboOauth2::VERSION
+  gem.version       = OmniAuth::SitesOauth2::VERSION
 
   gem.add_dependency 'omniauth', '~> 1.0'
   gem.add_dependency 'omniauth-oauth2', '~> 1.0'

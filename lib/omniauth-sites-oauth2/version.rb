@@ -1,5 +1,5 @@
 module OmniAuth
-  module WeiboOauth2
-    VERSION = "0.3.0"
+  module SitesOauth2
+    VERSION = "0.0.1"
   end
 end
